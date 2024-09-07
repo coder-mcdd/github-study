@@ -14,6 +14,7 @@ categories:
   - title: ☠️ Deprecations
     label: type/deprecation
   - title: 🐛 Bug Fixes
+    # The label is the type/bug not the bug
     label: type/bug
   - title: 📖 Documentation
     label: type/docs
