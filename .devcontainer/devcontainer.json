@@ -48,5 +48,6 @@
             "version": "latest"
         }
 	},
-	"postStartCommand": ["ls -ahl"]
+	"postStartCommand": ["ls -ahl"],
+
 }
