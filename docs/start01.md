@@ -1,3 +1,3 @@
 # start01
 
-link issue #1
+start01 is a doc for github-study 

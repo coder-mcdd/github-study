@@ -48,5 +48,5 @@
             "version": "latest"
         }
 	},
-//	"postStartCommand": ["./gradlew", "compileJava"]
+	"postStartCommand": ["ls -ahl"]
 }
