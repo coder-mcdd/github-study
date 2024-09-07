@@ -1,27 +1,46 @@
-name-template: $NEXT_PATCH_VERSION
-tag-template: $NEXT_PATCH_VERSION
-template: |
-  # What's Changed
-  
-  $CHANGES
+name-template: 'v$RESOLVED_VERSION 🌈'
+tag-template: 'v$RESOLVED_VERSION'
 categories:
   - title: ⚠️ Breaking API changes
-    label: type/breaking-api-change
+    label: breaking-api-change
+
   - title: 🚀 Features & Enhancements
     labels:
-      - type/feature
-      - type/enhancement
+      - feature
+      - enhancement
+
   - title: ☠️ Deprecations
-    label: type/deprecation
+    label: deprecation
+
   - title: 🐛 Bug Fixes
-    # The label is the type/bug not the bug
-    label: type/bug
+    # The label is the bug not the bug
+    label: bug
+
   - title: 📖 Documentation
-    label: type/docs
+    label: docs
+
   - title: 🧹 Housekeeping
     labels:
-      - type/housekeeping
-      - type/test-improvement
+      - housekeeping
+      - test-improvement
+
   - title: 📦 Dependency updates
     label: dependencies
     collapse-after: 5
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
+version-resolver:
+  major:
+    labels:
+      - 'major'
+  minor:
+    labels:
+      - 'minor'
+  patch:
+    labels:
+      - 'patch'
+  default: patch
+template: |
+  ## Changes
+
+  $CHANGES

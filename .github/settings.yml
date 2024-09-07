@@ -52,29 +52,32 @@ repository:
 # Labels: define labels for Issues and Pull Requests
 # If including a `#`, make sure to wrap it with quotes!
 labels:
-  - name: area/bitbucket-pipelines
-    color: '#f9d0c4'
+  - name: breaking-api-change
+    color: '#d4c5f9'
 
+  - name: housekeeping
+    color: '#d4c5f9'
+
+  - name: test-improvement
+    color: '#d4c5f9'
+
+  - name: docs
+    color: '#0ED2A8'
+
+  - name: bug
+    color: '#B60205'
+
+  - name: deprecation
+    color: '#d4c5f9'
+
+  - name: enhancement
+    color: '#d4c5f9'
+
+  - name: feature
+    color: '#99FDD5'
+    
   - name: dependencies
     color: '#0025ff'
-
-  - name: github_actions
-    color: '#000000'
-
-  - name: good first issue
-    color: '#14d60a'
-
-  - name: gradle-wrapper
-    color: '#02303A'
-
-  - name: hacktoberfest
-    color: '#14d60a'
-
-  - name: hacktoberfest-accepted
-    color: '#79C259'
-
-  - name: help wanted
-    color: '#fef2c0'
 
   - name: os/linux
     color: '#1d76db'
@@ -84,69 +87,6 @@ labels:
 
   - name: os/windows
     color: '#1d76db'
-
-  - name: resolution/acknowledged
-    color: '#fef2c0'
-
-  - name: resolution/answered
-    color: '#fef2c0'
-
-  - name: resolution/awaiting-release
-    color: '#fef2c0'
-
-  - name: resolution/duplicate
-    color: '#fef2c0'
-
-  - name: resolution/invalid
-    color: '#fef2c0'
-
-  - name: resolution/pr-submitted
-    color: '#fef2c0'
-
-  - name: resolution/somedaymaybe
-    color: '#fef2c0'
-
-  - name: resolution/waiting-for-info
-    color: '#fef2c0'
-
-  - name: resolution/wontfix
-    color: '#fef2c0'
-
-  - name: security
-    color: '#ee0701'
-
-  - name: stale
-    color: '#ffffff'
-
-  - name: type/breaking-api-change
-    color: '#d4c5f9'
-
-  - name: type/bug
-    color: '#d4c5f9'
-
-  - name: type/deprecation
-    color: '#d4c5f9'
-
-  - name: type/docs
-    color: '#d4c5f9'
-
-  - name: type/enhancement
-    color: '#d4c5f9'
-
-  - name: type/feature
-    color: '#d4c5f9'
-
-  - name: type/housekeeping
-    color: '#d4c5f9'
-
-  - name: type/new module
-    color: '#d4c5f9'
-
-  - name: type/question
-    color: '#d4c5f9'
-
-  - name: type/test-improvement
-    color: '#d4c5f9'
 
   # Collaborators: give specific users access to this repository.
   # See https://docs.github.com/en/rest/reference/repos#add-a-repository-collaborator for available options
