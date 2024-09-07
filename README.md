@@ -10,7 +10,8 @@ TODO
 
 ## 功能 ✨
 
-- template
+- github
+- good
 
 ## 安装 📦
 
